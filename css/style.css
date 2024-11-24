@@ -280,22 +280,23 @@ a {
 
 /* less then 768px */
 @media (max-width: 768px) {
-  .navbar__list {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-
-    gap: 0 43px;
+  .video {
+    padding-bottom: 20px;
   }
 
   .video__iframe {
-    height: 250px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
   }
 }
 
-/* less then 576px */
+/* ++less then 576px */
 @media (max-width: 576px) {
   .content {
     -webkit-box-align: center;
