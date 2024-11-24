@@ -278,6 +278,24 @@ a {
   }
 }
 
+/* less then 768px */
+@media (max-width: 768px) {
+  .video {
+    padding-bottom: 20px;
+  }
+
+  .video__iframe {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
 /* ++less then 576px */
 @media (max-width: 576px) {
   .content {
